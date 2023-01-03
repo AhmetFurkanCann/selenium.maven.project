@@ -19,7 +19,7 @@ public class Calendar {
 
         js.executeScript("window.scrollBy(0,700)");
 
-        Thread.sleep(5000);
+        //Thread.sleep(5000);
         //April 23
         driver.findElement(By.xpath("//input[@id='form-field-travel_comp_date']")).click();
 
